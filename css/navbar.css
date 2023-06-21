@@ -1,0 +1,119 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.navbar 
+{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #156290;
+}
+.nav-link
+{
+    margin-left: 10%;
+}
+.nav-link li 
+{
+    display: inline-block;
+    padding: 5px 20px;
+}
+.nav-link a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.logo 
+{
+    width: 100%;
+    height: 85px;
+
+}
+.our-client img 
+{
+    width: 100%;
+    height: 155px;
+}
+#footer
+{
+    width: 100%;
+    height: auto;
+    background-color: #156290 !important;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+    #header
+    {
+        margin: 5px !important;
+        padding: 5px !important;
+        letter-spacing: 2px !important;
+        margin-top: 2% !important;
+    }
+    .navbar-brand
+    {
+        padding: 5px;
+    }
+    .nav-link li 
+    {
+        display: block;
+    }
+    .carousel-inner img 
+    {
+        width: 100%;
+        height: 220px !important;
+    }
+    .our-client
+    {
+        width: 90%;
+        height: auto;
+       
+    }
+    .our-client img 
+    {
+        width: 100%;
+        height: auto;
+    }
+    .featured-products
+    {
+        width: 80% !important;
+        height: auto;
+        margin: auto;
+    }
+    .featured-products img 
+    {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .login-img 
+    {
+        display: none !important;
+    }
+    .modal-content
+    {
+width: 90%;
+height: auto;
+margin: auto;
+padding: 8px !important;
+    }
+    .products-disscount
+    {
+        width: 100% !important;
+        height: auto;
+        margin: auto;
+    }
+    .products-disscount img 
+    {
+        width: 80% !important;
+        height: auto;
+        margin:0;
+        padding: 0;
+    }
+}
